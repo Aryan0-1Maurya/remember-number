@@ -1,0 +1,101 @@
+<!-- 
+
+      ************************************************************
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+{   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  }
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+      ************************************************************
+ -->
+      <!DOCTYPE html>
+      <html>
+          <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=7" />
+            <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+            <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+            <meta name="author" content="Aryan Maurya" />
+            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+            <link rel="apple-touch-icon" href="favicon.png" />
+            <link
+              rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+            />
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+            <meta
+              name="description"
+              content="This is online remember number game build for your imporove thing skill in this domain by aryan maurya enjoy your game"
+            />
+            <meta name="keywords" content="Remember Number, memory game, number challenge, cognitive skills, brain training, concentration, mental agility, numerical memory, number sequence, recall game, memory exercise, educational game, fun learning, numerical patterns, mental workout, puzzle game, mobile gaming, number retention, memory boost, entertainment, cognitive development">
+
+              <title>Remember number</title>
+              <link rel="stylesheet" href="style.css">
+              <script src="main.js" defer></script>
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          </head>
+          <body>
+          <div class="body" id="body">
+              <div id="num"></div>
+              <div id="button2">Ready!</div>
+              <div id = game_card>
+              <div id="score">Score : 0</div>
+              <input type="number" id="ans" placeholder ="Click ready to answer">
+              <div id="button" type="submit">Submit</div>
+              </div>
+              
+          </div>
+              
+          <div id="card">
+                 <div class="card">
+                     <h1>Game Over</h1>
+                     <p id="sco">Score :</p>
+                     <p id="iq">IQ : 0</p>
+                     <div id ="btn">Restart</div>
+                     <script>
+                            Swal.fire({
+        icon: "success",
+        title: `Instructions to play
+• Check the number on top box and remember it .
+•Click on ready if you are ready
+•Enter the number in the input field
+•Everytime number of digits increase by 1
+•You can answer only after clicking on Ready ! 
+•Best of luck :)`,
+       
+        timer: 3800,
+        showClass: {
+          popup: `
+     animate__animated
+     animate__fadeInUp
+     animate__faster
+   `,
+        },
+        hideClass: {
+          popup: `
+     animate__animated
+     animate__fadeOutDown
+     animate__faster
+   `,
+        },
+      });
+                     </script>
+          </body>
+      </html>
+
+      <!-- 
+
+      ************************************************************
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+{   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  }
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+      ************************************************************
+ -->
